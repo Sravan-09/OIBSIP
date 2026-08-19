@@ -1,0 +1,13 @@
+Column_Name,Data_Type,Total_Rows,Null_Count,Null_Percentage,Unique_Values,Quality_Anomalies
+PassengerId,int64,891,0,0.0,891,Clean
+Survived,int64,891,0,0.0,2,Clean
+Pclass,int64,891,0,0.0,3,Clean
+Name,object,891,0,0.0,891,Unstripped whitespace detected
+Sex,object,891,0,0.0,2,Clean
+Age,float64,891,177,19.87,88,Clean
+SibSp,int64,891,0,0.0,7,Clean
+Parch,int64,891,0,0.0,7,Clean
+Ticket,object,891,0,0.0,681,Clean
+Fare,float64,891,0,0.0,248,Extreme price outlier (Max: 512.3292)
+Cabin,object,891,687,77.1,147,Clean
+Embarked,object,891,2,0.22,3,Clean

@@ -1,0 +1,32 @@
+# Python bytecode & cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints & cache
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Environment & IDE
+venv/
+env/
+.env
+.vscode/
+.idea/
+
+# Large datasets & binary models (Keep .gitkeep)
+data/raw/*.csv
+data/processed/*.csv
+models/*.joblib
+models/*.pkl
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!models/.gitkeep
+!outputs/figures/.gitkeep
+!outputs/tables/.gitkeep
+
+# Operating system files
+Thumbs.db
+Desktop.ini
+.DS_Store
