@@ -1,0 +1,11 @@
+Error_Type,Actual_Class,Predicted_Class,Amount
+False Negative (Missed Fraud),1,0,1.0
+False Negative (Missed Fraud),1,0,1.0
+False Negative (Missed Fraud),1,0,529.0
+False Negative (Missed Fraud),1,0,98.01
+False Negative (Missed Fraud),1,0,519.9
+False Positive (False Alarm),0,1,0.76
+False Positive (False Alarm),0,1,1.0
+False Positive (False Alarm),0,1,179.63
+False Positive (False Alarm),0,1,1.0
+False Positive (False Alarm),0,1,45.51
