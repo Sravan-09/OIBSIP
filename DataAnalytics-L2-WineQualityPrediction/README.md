@@ -183,7 +183,7 @@ Select `Run All Cells` to view the full wine quality classification notebook.
 
 ## 👨‍💻 Author Section
 - **Author**: Bokkasam Sravan
-- **Role**: Data Science Intern
+- **Role**: Data Analytics Intern
 - **Program**: OASIS INFOBYTE Data Analytics Internship (OIBSIP)
 - **Task**: Level 2 Task 2 - Wine Quality Prediction
 - **Repository**: `OIBSIP`

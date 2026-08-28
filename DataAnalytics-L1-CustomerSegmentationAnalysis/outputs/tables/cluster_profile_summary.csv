@@ -1,5 +1,0 @@
-Cluster,Customer_Count,Mean_Recency_Days,Mean_Frequency_Orders,Mean_Monetary_Spend,Mean_AvgOrderValue,Segment_Name,Percentage_Customers
-0,713,12.2,13.8,8088.02,119.0,High-Value Champions,16.44
-1,1622,181.5,1.3,341.0,30.35,Dormant / Low-Engagement Customers,37.39
-2,837,17.7,2.2,557.32,25.97,At-Risk / Slipping Customers,19.29
-3,1166,71.6,4.1,1801.78,120.77,Dormant / Low-Engagement Customers,26.88

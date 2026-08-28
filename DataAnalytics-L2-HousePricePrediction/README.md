@@ -171,7 +171,7 @@ Select `Run All Cells` to view the full regression analysis notebook.
 
 ## 👨‍💻 Author Section
 - **Author**: Bokkasam Sravan
-- **Role**: Data Science Intern
+- **Role**: Data Analytics Intern
 - **Program**: OASIS INFOBYTE Data Analytics Internship (OIBSIP)
 - **Task**: Level 2 Task 1 - House Price Prediction
 - **Repository**: `OIBSIP`

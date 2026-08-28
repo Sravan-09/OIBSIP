@@ -142,7 +142,7 @@ Select `Run All Cells` to view the 17-section data cleaning workflow.
 
 ## 👨‍💻 Author Section
 - **Author**: Bokkasam Sravan
-- **Role**: Data Science Intern
+- **Role**: Data Analytics Intern
 - **Program**: OASIS INFOBYTE Data Analytics Internship (OIBSIP)
 - **Task**: Level 1 Task 3 - Cleaning Data
 - **Repository**: `OIBSIP`

@@ -1,7 +1,0 @@
-Metric,Before_Cleaning,After_Cleaning,Improvement_Notes
-Total Row Count,891,891,Preserved 100% of rows (no record loss)
-Total Column Count,12,14,"Engineered 2 features (Cabin_Known, Title)"
-Total Missing Cells,866,0,100% missing value resolution
-Duplicate Rows,0,0,Zero duplicate records remaining
-Categorical String Casing,"Variations ('male', 'Female')","Standardized ('Male', 'Female')",Unified categorical levels & stripped whitespace
-Extreme Outlier Distortion (Fare),Max Fare = £512.33,Capped Max Fare = £65.63,Capped IQR outliers without dropping valid records

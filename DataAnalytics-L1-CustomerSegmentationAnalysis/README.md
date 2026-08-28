@@ -152,7 +152,7 @@ Select `Run All Cells` to view interactive cluster scatter plots and profile tab
 
 ## 👨‍💻 Author Section
 - **Author**: Bokkasam Sravan
-- **Role**: Data Science Intern
+- **Role**: Data Analytics Intern
 - **Program**: OASIS INFOBYTE Data Analytics Internship (OIBSIP)
 - **Task**: Level 1 Task 2 - Customer Segmentation Analysis
 - **Repository**: `OIBSIP`

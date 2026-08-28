@@ -158,7 +158,7 @@ Select `Run All Cells` to view the full sentiment classification notebook.
 
 ## 👨‍💻 Author Section
 - **Author**: Bokkasam Sravan
-- **Role**: Data Science Intern
+- **Role**: Data Analytics Intern
 - **Program**: OASIS INFOBYTE Data Analytics Internship (OIBSIP)
 - **Task**: Level 1 Task 4 - Sentiment Analysis
 - **Repository**: `OIBSIP`
