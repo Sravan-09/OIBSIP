@@ -1,3 +1,3 @@
 Transaction Type,Count,Percentage (%)
-Legitimate (0),284315,99.8273
-Fraudulent (1),492,0.1727
+Legitimate (0),30000,98.3865
+Fraudulent (1),492,1.6135
