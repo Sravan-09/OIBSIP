@@ -169,4 +169,4 @@ Select `Run All Cells` from the Jupyter toolbar to view interactive plots and ou
 - **Program**: OASIS INFOBYTE Data Analytics Internship (OIBSIP)
 - **Task**: Level 1 Task 1 - EDA on Retail Sales Data
 - **Repository**: `OIBSIP`
-- **Sub-folder**: `DataAnalytics-L1-EDARetailSales/`
+- **Folder**: `DataAnalytics-L1-EDARetailSales/`
