@@ -1,0 +1,21 @@
+Misspelled Word,Expected Word,Predicted Correction,Result,Edit Distance
+teh,the,the,Correct,2
+wrold,world,world,Correct,2
+beutiful,beautiful,beautiful,Correct,1
+goverment,government,government,Correct,1
+speling,spelling,seeling,Incorrect,1
+neccessary,necessary,necessary,Correct,1
+definately,definitely,delicately,Incorrect,2
+recomend,recommend,recommends,Incorrect,2
+accommodate,accommodate,accommodate,Correct,0
+enviroment,environment,enviroment,Incorrect,0
+knowlege,knowledge,knowledge,Correct,1
+occured,occurred,occurred,Correct,1
+seperate,separate,separate,Correct,1
+untill,until,until,Correct,1
+tommorow,tomorrow,tomorrow,Correct,2
+truely,truly,truely,Incorrect,0
+usefull,useful,useful,Correct,1
+whith,with,with,Correct,1
+befor,before,befor,Incorrect,0
+alot,a lot,aloft,Incorrect,1

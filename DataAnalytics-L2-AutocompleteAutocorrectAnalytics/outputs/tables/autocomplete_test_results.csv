@@ -1,0 +1,11 @@
+Input Context,Top Predictions,Top 3 Predictions with Probabilities
+in the,"sea, air, fishery",sea (0.03) | air (0.02) | fishery (0.02)
+she was,"now, a, quite",now (0.09) | a (0.08) | quite (0.06)
+it is,"a, not, the",a (0.12) | not (0.07) | the (0.06)
+one of,"the, them, those",the (0.44) | them (0.11) | those (0.11)
+he had,"been, not, a",been (0.13) | not (0.06) | a (0.06)
+they were,"all, as, in",all (0.06) | as (0.04) | in (0.03)
+there was,"a, no, nothing",a (0.32) | no (0.18) | nothing (0.06)
+at the,"same, time, bottom",same (0.06) | time (0.06) | bottom (0.03)
+from a,"boat, whale, bottle",boat (0.06) | whale (0.06) | bottle (0.02)
+with a,"certain, view, long",certain (0.02) | view (0.02) | long (0.02)

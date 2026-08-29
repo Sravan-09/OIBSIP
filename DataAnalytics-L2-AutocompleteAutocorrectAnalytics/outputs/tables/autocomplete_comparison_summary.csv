@@ -1,0 +1,3 @@
+Model Approach,Precision@1 (%),Precision@3 (%),MRR Score
+Bigram Frequency Model,50.0,70.0,0.6
+Trigram Frequency Model (With Backoff),70.0,80.0,0.75
