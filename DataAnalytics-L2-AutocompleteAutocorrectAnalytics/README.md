@@ -84,6 +84,7 @@ DataAnalytics-L2-AutocompleteAutocorrectAnalytics/
 │   │   ├── README.md                             # Corpus download documentation
 │   │   └── gutenberg_corpus.txt                  # Public domain Project Gutenberg text corpus (3.4M chars)
 │   └── processed/
+|       └── corpus_statistics.json                # Corpus statistics including vocabulary, N-gram frequencies
 │
 ├── notebooks/
 │   └── Autocomplete_Autocorrect_Analytics.ipynb # Fully executed 27-cell Jupyter Notebook (0 errors)
