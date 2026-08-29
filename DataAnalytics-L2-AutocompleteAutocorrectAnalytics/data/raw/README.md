@@ -1,19 +1,19 @@
-# Raw Data Directory: Project Gutenberg Text Corpus
+# Raw Corpus Information: Project Gutenberg Text Corpus
 
-## 📌 Dataset Overview
-This directory contains the raw text corpus used for building, training, and evaluating the **Autocomplete** (Frequency-based N-Gram Language Models) and **Autocorrect** (Edit-Distance Spelling Correction) systems.
+## Dataset Overview
+- **Dataset Name**: Project Gutenberg Public Domain Literature Corpus
+- **Primary Source**: Project Gutenberg / NLTK Gutenberg Corpus (`nltk.corpus.gutenberg`)
+- **Direct Raw Download URL**: `https://raw.githubusercontent.com/nltk/nltk_data/gh-pages/packages/corpora/gutenberg.zip`
+- **Expected Filename**: `gutenberg_corpus.txt`
+- **Target Location**: `data/raw/gutenberg_corpus.txt`
 
-## 📖 Corpus Sources
-The corpus is compiled from public-domain literature sourced from **Project Gutenberg** via the NLTK library (`nltk.corpus.gutenberg`), including:
-1. *The Adventures of Sherlock Holmes* by Arthur Conan Doyle (`carroll-alice.txt` / `doyle-sherlock.txt`)
-2. *Alice's Adventures in Wonderland* by Lewis Carroll
-3. *Jane Eyre* by Charlotte Brontë (`bronte-jane.txt`)
-4. *Moby Dick* by Herman Melville (`melville-moby_dick.txt`)
-5. *Shakespeare Plays & Sonnets* (`shakespeare-hamlet.txt`, `shakespeare-macbeth.txt`)
+## Dataset Description
+This raw text corpus compiles classic public domain English literature from Project Gutenberg (including works by Arthur Conan Doyle, Lewis Carroll, Charlotte Brontë, Herman Melville, and William Shakespeare). It contains 294,232 words (1.68 MB of uncompressed raw text) serving as the baseline linguistic dataset for training n-gram autocomplete language models and building edit-distance autocorrect vocabulary dictionaries.
 
-## 💾 Acquisition & Reproduction
-The corpus is automatically downloaded and compiled into `gutenberg_corpus.txt` via `src/preprocessing.py` during execution.
+## Data Schema & Attributes
+| Document Property | Format / Type | Description |
+| :--- | :--- | :--- |
+| `Corpus Content` | Plain Text (UTF-8) | Raw English prose and dialogue from classic literature used for n-gram frequency modeling and vocabulary extraction. |
 
-If automated download is unavailable, raw public domain text files can be fetched directly from:
-- **Project Gutenberg Official Archive**: `https://www.gutenberg.org/`
-- **NLTK Gutenberg Corpus**: `https://raw.githubusercontent.com/nltk/nltk_data/gh-pages/packages/corpora/gutenberg.zip`
+## Automated Acquisition
+The corpus loader utility in `src/preprocessing.py` automatically downloads and compiles `gutenberg_corpus.txt` into this directory when `download_and_compile_corpus()` is executed. Manual download is only required if running offline.

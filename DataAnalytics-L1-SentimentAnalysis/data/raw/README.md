@@ -1,15 +1,23 @@
-# Raw Dataset Documentation: Twitter Sentiment Analysis
+# Raw Dataset Information: Twitter Sentiment Analysis
 
-## Dataset Details
-- **Name**: Public Twitter Sentiment Corpus
-- **Source URL**: `https://raw.githubusercontent.com/zfz/twitter_corpus/master/full-corpus.csv`
-- **Volume**: 5,113 Raw Records
-- **Raw Schema**:
-  - `Topic`: Target topic entity (e.g. `apple`, `google`, `microsoft`, `twitter`)
-  - `Sentiment`: Label attribute (`positive`, `negative`, `neutral`, `irrelevant`)
-  - `TweetId`: Unique tweet identifier
-  - `TweetDate`: Timestamp of post creation
-  - `TweetText`: Raw textual content of tweet
+## Dataset Overview
+- **Dataset Name**: Public Twitter Sentiment Corpus
+- **Primary Source**: GitHub / Public Sentiment Repository (`zfz/twitter_corpus`)
+- **Direct Raw Download URL**: `https://raw.githubusercontent.com/zfz/twitter_corpus/master/full-corpus.csv`
+- **Expected Filename**: `twitter_sentiment_raw.csv`
+- **Target Location**: `data/raw/twitter_sentiment_raw.csv`
 
-## Target Filtering Strategy
-To build a 3-class sentiment classifier, records with label `irrelevant` are filtered out, leaving 3,424 annotated tweets categorized into **`positive`**, **`negative`**, and **`neutral`**.
+## Dataset Description
+This dataset contains 5,113 raw tweets annotated across commercial topics (`apple`, `google`, `microsoft`, `twitter`) and sentiment classifications (`positive`, `negative`, `neutral`, `irrelevant`). It serves as a benchmark text corpus for natural language processing, text cleaning, TF-IDF feature extraction, and multi-class sentiment classification algorithms.
+
+## Data Schema & Attributes
+| Column Name | Data Type | Description |
+| :--- | :--- | :--- |
+| `Topic` | Object (String) | Target commercial topic entity (e.g. `apple`, `google`, `microsoft`, `twitter`). |
+| `Sentiment` | Object (String) | Raw sentiment annotation (`positive`, `negative`, `neutral`, `irrelevant`). |
+| `TweetId` | Integer / Object | Unique tweet identification key string. |
+| `TweetDate` | Object (String) | Timestamp of post creation (e.g. `Sat Sep 24 22:42:33 +0000 2011`). |
+| `TweetText` | Object (String) | Raw textual content of the tweet message. |
+
+## Automated Acquisition
+The text preprocessing utility in `src/preprocessing.py` automatically downloads `twitter_sentiment_raw.csv` into this directory when `download_and_load_raw_data()` is executed. Manual download is only required if running offline.
